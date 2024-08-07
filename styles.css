@@ -1,0 +1,170 @@
+/* styles.css */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(229, 215, 16);
+    color: black;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.group,
+.student {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.group {
+    background-color: rgb(215, 163, 95);
+    border-radius: 8px;
+    color: white;
+}
+
+
+
+.group h3,
+.student h3 {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    padding: 10px 0 10px 0;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+#addStudentBtn {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    background-color: rgb(188, 135, 66);
+    color: white;
+    cursor: pointer;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn {
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: rgb(188, 135, 66);
+    cursor: pointer;
+    color: white;
+
+}
+
+.inp_name {
+    display: block;
+    width: 500px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(188, 135, 66);
+    padding: 0 0 0 14px;
+    font-size: 16px;
+
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.btn-bar {
+    margin-top: 20px;
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-bar button {
+    width: 200px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(188, 135, 66);
+    font-size: 16px;
+    color: white;
+}
+
+#addGroupForm input {
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid rgb(188, 135, 66);
+    padding: 0 0 0 10px;
+}
+
+#addGroupForm button {
+    width: 150px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: rgb(188, 135, 66);
+    color: white;
+    border: none;
+    font-size: 18px;
+}
